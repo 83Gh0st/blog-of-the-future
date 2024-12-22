@@ -26,7 +26,7 @@ const Navbar = (props: Props) => {
         <div className="basis-2/3 md:mt-3">
           <h1 className="font-bold text-3xl md:text-5xl">BLOG OF THE FUTURE</h1>
           <p className="text-sm mt-3">
-            Blog dedicated towards AI and generation and job automation
+            Blog dedicated towards AI and upto date content on all aspects of technology.
           </p>
         </div>
         <div className="basis-full relative w-auto h-32 bg-wh-500">
