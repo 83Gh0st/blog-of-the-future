@@ -1,7 +1,10 @@
 {
-  "name": "blog-ai",
+  "name": "blog-ai-app",
   "version": "0.1.0",
   "private": true,
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,19 +13,35 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "next": "15.1.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@prisma/client": "^6.1.0",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tiptap/pm": "^2.0.0-beta.220",
+    "@tiptap/react": "^2.0.0-beta.220",
+    "@tiptap/starter-kit": "^2.0.0-beta.220",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "^15.1.2",
+    "openai": "^4.77.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^18.15.3",
+    "autoprefixer": "^10.4.14",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "postcss": "^8.4.21",
+    "prettier": "^3.4.2",
+    "prisma": "^6.1.0",
+    "tailwindcss": "^3.2.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "resolutions": {
+    "axios": "0.27.2",
+    "next": "14.2.14"
   }
 }
