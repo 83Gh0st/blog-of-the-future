@@ -6,6 +6,7 @@ import Subscribe from "app/(shared)/Subscribe";
 import Sidebar from "app/(shared)/Sidebar";
 import { prisma } from "app/api/client";
 import { Post } from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
 
 export const revalidate = 60;
 

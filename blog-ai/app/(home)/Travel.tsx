@@ -12,7 +12,7 @@ const Travel = ({ travelPosts }: Props) => {
       <hr className="border-1" />
       {/* HEADER */}
       <div className="flex items-center gap-3 my-8">
-        <h4 className="bg-accent-green py-2 px-5 text-wh-900 text-sm font-bold">
+        <h4 className="bg-accent-red py-2 px-5 text-wh-900 text-sm font-bold">
           TRAVEL
         </h4>
         <p className="font-bold text-2xl">New Travel Experiences</p>
