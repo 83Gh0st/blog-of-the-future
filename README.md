@@ -2,8 +2,8 @@
 An advanced blog platform 
 # Documentation for Blog Application
 
+![image](https://github.com/user-attachments/assets/44d5e4dd-f8a0-4cc1-afa2-f54fd5507338)
 
-(https://github.com/83Gh0st/blog-of-the-future/blob/main/2024-12-24_17-40.png?raw=true)
 This documentation provides a step-by-step guide for setting up, configuring, and deploying the blog application described in the video tutorial [here](https://youtu.be/pfHjxyeCHRs?list=PLs0RSZipvGCQlfdgzb1o6ijSIHJ3Axq1z). The guide covers both major and minor configurations required to run the application successfully.
 
 ---
@@ -82,6 +82,7 @@ yarn install
 3. Ensure you have sufficient quota in your OpenAI account.
 
 ---
+![image](https://github.com/user-attachments/assets/13e58791-f475-4b3e-b851-292be2160dd8)
 
 ## Step 6: Configure Next.js Routes
 
