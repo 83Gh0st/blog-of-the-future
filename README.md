@@ -2,6 +2,8 @@
 An advanced blog platform 
 # Documentation for Blog Application
 
+
+(https://github.com/83Gh0st/blog-of-the-future/blob/main/2024-12-24_17-40.png?raw=true)
 This documentation provides a step-by-step guide for setting up, configuring, and deploying the blog application described in the video tutorial [here](https://youtu.be/pfHjxyeCHRs?list=PLs0RSZipvGCQlfdgzb1o6ijSIHJ3Axq1z). The guide covers both major and minor configurations required to run the application successfully.
 
 ---
