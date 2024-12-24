@@ -19,7 +19,7 @@ const Sidebar = (props: Props) => {
       <Subscribe />
       <Image
         className="hidden md:block my-8 w-full"
-        alt="advert-2"
+        alt="advert-1"
         placeholder="blur"
         src={Ad2}
         width={500}
